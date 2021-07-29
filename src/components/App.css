@@ -1,0 +1,60 @@
+body {
+    background-image: url("../forest-438432_1920.jpg");
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.result {
+    display: flex;
+
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+}
+
+form {
+    width: 100%;
+    max-width: 420px;
+    max-height: fit-content;
+    display: flex;
+    background: #000000d0;
+    color: white;
+    justify-content: center;
+
+    padding: 2em;
+    border-radius: 30px;
+}
+
+.opis {
+    font-size: 24px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.select {
+
+    font-size: 18px;
+    width: 100%;
+    max-width: 420px;
+}
+
+input {
+    background: #0d311dd0;
+    color: white;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    width: 100%;
+    max-width: 420px;
+}
